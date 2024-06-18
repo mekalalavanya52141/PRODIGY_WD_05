@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #bfd0df;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.search-bar input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #022234;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+.weather {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgb(132, 220, 244);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
